@@ -7,10 +7,10 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing : border-box;
   }
-
+  
   body {
-    font-family: sans-serif;
-    background-color: ${(props) => props.theme.backgroundColor};
+    background: linear-gradient(to bottom right, blue, skyblue) no-repeat;
+    background-size: cover;
     color: ${(props) => props.theme.color};
   }
 
